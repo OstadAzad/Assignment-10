@@ -1,0 +1,55 @@
+https://nextjs-project-structure.netlify.app/
+
+
+
+Folder Structure:
+
+.next = .next folder is created by "npm run build" command in terminal. It is optional folder for a nextjs project. If we want to delete or remove it form the project it have not hamper the project. 
+
+app = This folder is main and compolsary for a nextjs project. Without it we can not run the project. This folder is like a tree. It has layout.js & page.js core files.
+
+node_modules = node_modules folder is supporting folder for nextjs project. It is created when the nextjs project first time install.
+
+public = This folder is static assets to be served. We can stored in here static assets files like images.
+
+
+
+
+
+File Structure:
+
+layout.js = layout.js file is the master file or main file in this nextjs project. We can not change it's name. Without it we can not run the project.
+
+page.js = This page is core or main page in this nextjs project. It's name can not be changed. It is unique page for this nextjs project.
+
+globals.css = This file is used for globally in this nextjs project.
+
+.gitignore = This file is git files and folders to ignore.
+
+jsconfig.json = This file is configuration file for JavaScript.
+
+next.config.js = This file is configuration file for Next.js .
+
+package-lock.json = This file is optional for nextjs project. In here described pakages versions and name.
+
+package.json = This file is project dependencies and scripts
+
+postcss.config.js = This file is configuration file for Tailwind CSS.
+
+README.md = In a Next.js project, the README.md file is a special file that serves as a "readme" or documentation for the project. The ".md" extension stands for Markdown, which is a lightweight markup language used to format text. Markdown allows you to add formatting like headings, lists, links, code blocks, and more, making it easy to write and read.
+
+tailwind.config.js = This file is tailwind css package. By it we can use tailwind css properties or features. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
